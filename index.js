@@ -5,7 +5,6 @@ function BoardMember(name, homeState, training) {
 }
 
 BoardMember.prototype = {
-  constructor: BoardMember.prototype.constructor,
   veto() {
     return "No, I must disagree";
   },
